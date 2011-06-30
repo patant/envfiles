@@ -1,0 +1,11 @@
+[user]
+        name = Patrik Antonsson
+        email = patant@gmail.com
+[github]
+        user = patant
+[core]
+        editor = mate -w
+[merge]
+        tool = opendiff
+[color]
+        ui = true
