@@ -1,0 +1,12 @@
+# BASH ENVIRONMENT
+
+export EDITOR=vim
+
+# rvm
+[[ -s "/Users/patant/.rvm/scripts/rvm" ]] && source "/Users/patant/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+# Nodejs
+NODE_PATH=/usr/local/lib/node
+
+#PATH
+PATH=$PATH:~/bin:/usr/local/mysql/bin
