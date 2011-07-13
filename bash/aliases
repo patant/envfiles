@@ -3,3 +3,6 @@
 alias g="git status"
 alias gc="git commit -v"
 alias ga="git add -v"
+
+# unix
+alias ll="ls -la"
