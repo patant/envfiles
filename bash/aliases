@@ -8,3 +8,4 @@ alias ga="git add -v"
 # unix
 alias ll="ls -la"
 alias fn='find . -name'
+alias cdp='cd ~/dev/projects/'
