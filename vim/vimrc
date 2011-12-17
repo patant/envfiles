@@ -1,6 +1,22 @@
 " source and call pathogen 
 source ~/bin/envfiles/vim/pathogen/autoload/pathogen.vim
 call pathogen#infect('~/bin/envfiles/vim/bundle')
+call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
+set nowrap        " don't wrap lines
+set tabstop=4     " a tab is four spaces
+set autoindent    " always set autoindenting on
+set copyindent    " copy the previous indentation on autoindenting
+set showmatch     " set show matching parenthesis
+set hlsearch      " highlight search terms
+set incsearch     " show search matches as you type
+set title		  " change the terminal's title
+set nobackup
+set noswapfile
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
