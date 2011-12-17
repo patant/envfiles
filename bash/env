@@ -10,6 +10,3 @@ NODE_PATH=/usr/local/lib/node
 
 #PATH
 PATH=$PATH:~/bin:/usr/local/mysql/bin
-
-#vim-pathogen
-source ~/bin/envfiles/vim/autoload/pathogen.vim
