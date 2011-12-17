@@ -1,0 +1,6 @@
+" source and call pathogen 
+source ~/bin/envfiles/vim/pathogen/autoload/pathogen.vim
+call pathogen#infect('~/bin/envfiles/vim/bundle')
+
+syntax on
+filetype plugin indent on
