@@ -22,5 +22,4 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 " Set to auto read when a file is changed from the outside
 set autoread
-" make sure to have the ~/.vim/colors linked to the colors in envfiles
-colo jellybeans
+colo jellybeans " default colorscheme
