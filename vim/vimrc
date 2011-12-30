@@ -5,11 +5,13 @@ call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
+set number        " show line numbers
 set smartindent   " automatically inserts one extra level of indentation in some cases
 set shiftwidth=4 
 set expandtab
 set nowrap        " don't wrap lines
 set tabstop=4     " a tab is four spaces
+set softtabstop=4 " backspace back tab
 set autoindent    " always set autoindenting on
 set copyindent    " copy the previous indentation on autoindenting
 set showmatch     " set show matching parenthesis
@@ -26,3 +28,22 @@ map <C-l> <C-w>l
 " Set to auto read when a file is changed from the outside
 set autoread
 colo desert256 " default colorscheme
+
+
+" Only do this part when compiled with support for autocommands
+if has("autocmd")
+  " Enable file type detection
+  filetype on
+   
+  " Syntax of these languages is fussy over tabs Vs spaces
+  autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
+  autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+   
+  " Customisations based on house-style (arbitrary)
+  autocmd FileType html setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
+  autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab
+   
+  " Treat .rss files as XML
+  autocmd BufNewFile,BufRead *.rss setfiletype xml
+endif
