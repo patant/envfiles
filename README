@@ -1,1 +1,8 @@
 A place to store my environment files
+
+Create the links
+.gvimrc -> bin/envfiles/vim/gvimrc
+.vimrc -> bin/envfiles/vim/vimrc
+Compile the c extensions for command-t
+cd ~bin/envfiles/vim/bundle/Command-T
+rake make
