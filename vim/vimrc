@@ -9,7 +9,8 @@ set number        " show line numbers
 set smartindent   " automatically inserts one extra level of indentation in some cases
 set shiftwidth=4 
 set expandtab
-set nowrap        " don't wrap lines
+set wrap          " wrap lines
+set linebreak     " don't break words
 set tabstop=4     " a tab is four spaces
 set softtabstop=4 " backspace back tab
 set autoindent    " always set autoindenting on
@@ -27,7 +28,7 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 " Set to auto read when a file is changed from the outside
 set autoread
-colo desert256 " default colorscheme
+colo blackboard " default colorscheme
 
 
 " Only do this part when compiled with support for autocommands
