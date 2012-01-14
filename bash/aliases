@@ -9,3 +9,6 @@ alias ga="git add -v"
 alias ll="ls -la"
 alias fn='find . -name'
 alias cdp='cd ~/dev/projects/'
+
+#VIM
+alias v="~/bin/mvim --remote-silent"
