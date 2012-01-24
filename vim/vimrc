@@ -29,9 +29,10 @@ map <C-l> <C-w>l
 " Set to auto read when a file is changed from the outside
 set autoread
 colo blackboard " default colorscheme
-" set statusline
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+" set statusline using powerline plugin
+" set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 set laststatus=2
+set nocompatible " Disable vi-compatibility
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
@@ -50,3 +51,5 @@ if has("autocmd")
   " Treat .rss files as XML
   autocmd BufNewFile,BufRead *.rss setfiletype xml
 endif
+
+let Tlist_Ctags_Cmd = '/usr/local/Cellar/ctags/5.8/bin/ctags'
