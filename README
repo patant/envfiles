@@ -1,5 +1,8 @@
 A place to store my environment files
 
+Font used: inconsolata
+http://www.levien.com/type/myfonts/inconsolata.html
+
 Create the links
 .gvimrc -> bin/envfiles/vim/gvimrc
 .vimrc -> bin/envfiles/vim/vimrc
