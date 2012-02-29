@@ -73,4 +73,4 @@ On_ICyan='\e[0;106m'    # Cyan
 On_IWhite='\e[0;107m'   # White
 
 PS1="\[$BIBlue\]:\w\[$White\] \$\[$White\]\[$Red\]\$(__git_ps1)\[$White\]\n• "
-#PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+#PS1="\[$BIBlue\]:\w\[$White\] \$\[$White\]\[$Cyan\] (\$(~/.rvm/bin/rvm-prompt))\[$Red\]\$(__git_ps1)\[$White\]\n• "

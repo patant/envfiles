@@ -12,3 +12,6 @@ alias cdp='cd ~/dev/projects/'
 
 #VIM
 alias v="~/bin/mvim --remote-silent"
+
+#DEV
+alias rubydev='export PS1="\[$BIBlue\]:\w\[$White\] \$\[$White\]\[$Cyan\] (\$(~/.rvm/bin/rvm-prompt))\[$Red\]\$(__git_ps1)\[$White\]\n• "'
