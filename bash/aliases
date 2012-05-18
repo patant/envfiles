@@ -16,3 +16,6 @@ alias v="~/bin/mvim --remote-silent"
 
 #DEV
 alias rubydev='export PS1="\[$BIBlue\]:\w\[$White\] \$\[$White\]\[$Cyan\] (\$(~/.rvm/bin/rvm-prompt))\[$Red\]\$(__git_ps1)\[$White\]\n• "'
+
+#Googe Chrome
+alias chrome='open /Applications/Google\ Chrome.app'
