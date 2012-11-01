@@ -3,6 +3,7 @@
 alias g="git status"
 alias gc="git commit -v"
 alias ga="git add -v"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 
 # unix

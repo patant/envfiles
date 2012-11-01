@@ -34,3 +34,6 @@
 [submodule "vim/bundle/autoclose"]
 	path = vim/bundle/autoclose
 	url = git://github.com/Townk/vim-autoclose.git
+[submodule "vim/bundle/comments"]
+	path = vim/bundle/comments
+	url = git://github.com/vim-scripts/comments.vim.git
