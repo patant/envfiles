@@ -11,3 +11,9 @@ NODE_PATH=/usr/local/lib/node
 
 #PATH
 PATH=/usr/local/bin:~/bin:$PATH:/usr/local/share/npm/bin
+
+function server() {
+    local port="${1:-8000}"
+    open "http://localhost:${port}"
+    python -m SimpleHTTPServer "${port}"
+}
