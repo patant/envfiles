@@ -6,6 +6,8 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 set number        " show line numbers
+set list          " turn on invisible chars
+set listchars=tab:▸\ ,trail:▝,eol:¬ " Change the chars used to represents invisibles chars
 set smartindent   " automatically inserts one extra level of indentation in some cases
 set shiftwidth=4 
 set expandtab

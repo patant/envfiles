@@ -1,7 +1,7 @@
 # BASH ENVIRONMENT
 
 export EDITOR=vim
-export CC=/usr/bin/gcc-4.2
+#export CC=/usr/bin/gcc-4.2
 
 # rvm
 [[ -s "/Users/patant/.rvm/scripts/rvm" ]] && source "/Users/patant/.rvm/scripts/rvm"  # This loads RVM into a shell session.
@@ -10,4 +10,4 @@ export CC=/usr/bin/gcc-4.2
 NODE_PATH=/usr/local/lib/node
 
 #PATH
-PATH=$PATH:~/bin:/usr/local/mysql/bin
+PATH=/usr/local/bin:~/bin:$PATH:/usr/local/share/npm/bin
