@@ -28,6 +28,9 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+" Buffer toggle
+map <C-n> :bnext<CR>
+map <C-p> :bprev<CR>
 " Set to auto read when a file is changed from the outside
 set autoread
 colo blackboard " default colorscheme
@@ -61,3 +64,5 @@ if has('gui_running')
 endif
 " map space to select word in visualmode
 :map <space> viw
+" set the leader key
+let mapleader=","
