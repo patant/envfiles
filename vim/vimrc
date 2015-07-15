@@ -21,6 +21,7 @@ set showmatch     " set show matching parenthesis
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 set title		  " change the terminal's title
+set relativenumber " show relativenumber
 set nobackup
 set noswapfile
 " Easy window navigation
