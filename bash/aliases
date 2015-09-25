@@ -20,3 +20,6 @@ alias rubydev='export PS1="\[$BIBlue\]:\w\[$White\] \$\[$White\]\[$Cyan\] (\$(~/
 
 #Googe Chrome
 alias chrome='open /Applications/Google\ Chrome.app'
+
+#Akamai
+alias akamaiCurl='curl -IXGET -H "Pragma: akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-nonces, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no"'
